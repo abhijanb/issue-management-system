@@ -566,7 +566,7 @@ class IssueService
         foreach ($data as $row) {
             if (!$isHeaderSet) {
                 fputcsv($file, array_keys($row));
-                $header = true;
+                $isHeaderSet = true;
             }
 
             fputcsv($file, array_values($row));

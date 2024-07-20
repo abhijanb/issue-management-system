@@ -42,7 +42,7 @@ class AppConfig
      */
     const DB_CREDENTIALS = [
         "username" => "root",
-        "password" => "2468"
+        "password" => ""
     ];
 
     const DB_OPTIONS = [
